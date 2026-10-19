@@ -1,0 +1,12 @@
+package library.facade;
+
+public enum FailureReason {
+    READER_UNKNOWN,
+    READER_BLOCKED,
+    UNPAID_FINES,
+    LOAN_LIMIT_REACHED,
+    BOOK_UNKNOWN,
+    NO_COPIES_AVAILABLE,
+    NOT_BORROWED,
+    UNEXPECTED_FAILURE
+}
